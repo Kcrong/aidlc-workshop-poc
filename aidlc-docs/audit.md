@@ -164,3 +164,20 @@ aidlc-state.md: Application Design 완료 표시. Next: Units Generation.
 **Context**: Stage - Application Design (Complete). Next: commit & push.
 
 ---
+
+## Application Design - Approval
+**Timestamp**: 2026-04-22T05:24:13Z
+**User Input**: "Approve. 진행상황 commit&push"
+**AI Response**: Application Design 승인 확인. Units Generation 단계의 Planning 시작.
+**Context**: Stage - Application Design (Approved) → Units Generation (Start Planning)
+
+---
+
+## Units Generation - Planning
+**Timestamp**: 2026-04-22T05:24:13Z
+**User Input**: N/A (자동 진행)
+**AI Response**: unit-of-work-plan.md 생성. Application Design에서 Unit 경계가 이미 확정되어(Backend / Customer FE / Admin FE / Shared) 6개 확정 질문만 포함:
+Q1 디렉토리 구조, Q2 Unit 개수, Q3 Shared 배포 모델, Q4 구현 순서, Q5 팀 소유권, Q6 Deployment 모델.
+**Context**: Stage - Units Generation Part 1 (Planning). Gate: 사용자 답변 대기.
+
+---
