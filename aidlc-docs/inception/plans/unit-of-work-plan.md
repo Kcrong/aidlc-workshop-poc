@@ -14,12 +14,12 @@ Application Design 단계에서 다음이 이미 확정되었습니다:
 - [x] Application Design 로드 완료
 - [x] Unit 경계 초안 식별 (Backend / Customer FE / Admin FE / Shared)
 - [x] 질문 생성 (아래)
-- [ ] 사용자 답변 수령
-- [ ] 모호성 follow-up 분석
-- [ ] Plan 최종 승인 수령
-- [ ] `unit-of-work.md` 생성 — 유닛 정의/책임/코드 조직 전략
-- [ ] `unit-of-work-dependency.md` 생성 — 의존 매트릭스
-- [ ] `unit-of-work-story-map.md` 생성 — 22 스토리 ↔ 유닛 매핑
+- [x] 사용자 답변 수령 (1-A ~ 6-A)
+- [x] 모호성 follow-up 분석 (없음)
+- [x] Plan 최종 승인 수령
+- [x] `unit-of-work.md` 생성 — 유닛 정의/책임/코드 조직 전략
+- [x] `unit-of-work-dependency.md` 생성 — 의존 매트릭스
+- [x] `unit-of-work-story-map.md` 생성 — 22 스토리 ↔ 유닛 매핑
 
 ---
 
@@ -36,7 +36,7 @@ B) `backend/`, `customer-frontend/`, `admin-frontend/`, `shared/` — 평면 구
 C) `services/backend/`, `web/customer/`, `web/admin/`, `libs/shared/`
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---
 
@@ -49,7 +49,7 @@ B) 3개로 통합 (Shared를 Backend에 흡수)
 C) Customer/Admin FE를 1개 React 앱으로 통합 (라우팅 분리)
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---
 
@@ -62,7 +62,7 @@ B) 별도 npm 레지스트리 배포
 C) 단순 복사 또는 git submodule
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---
 
@@ -75,7 +75,7 @@ B) Backend → Customer FE → Admin FE — 순차
 C) 전 유닛 병렬 (의존 차단 시 mock 사용)
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---
 
@@ -88,7 +88,7 @@ B) 2~3인 분할 (Backend / FE 분담)
 C) 워크샵 참가자들이 각자 유닛 담당
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---
 
@@ -101,6 +101,6 @@ B) 모든 FE를 빌드해 Backend가 단일 서버로 서빙 (single port)
 C) 완전히 독립 — 3개 포트 동시 실행
 X) Other
 
-[Answer]: 
+[Answer]: A
 
 ---

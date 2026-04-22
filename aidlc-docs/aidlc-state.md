@@ -4,7 +4,7 @@
 - **Project Name**: Table Order Service (테이블오더 서비스)
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-22T02:28:12Z
-- **Current Stage**: INCEPTION - Application Design (Complete)
+- **Current Stage**: INCEPTION - Units Generation (Complete)
 
 ## Workspace State
 - **Existing Code**: No
@@ -35,6 +35,6 @@
 - [x] INCEPTION - User Stories
 - [x] INCEPTION - Workflow Planning
 - [x] INCEPTION - Application Design
-- [ ] INCEPTION - Units Generation (next, EXECUTE)
-- [ ] CONSTRUCTION - Per-Unit Loop
+- [x] INCEPTION - Units Generation
+- [ ] CONSTRUCTION - Per-Unit Loop (next)
 - [ ] CONSTRUCTION - Build and Test
