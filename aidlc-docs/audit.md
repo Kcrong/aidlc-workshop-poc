@@ -138,3 +138,29 @@ Q1 Backend 아키텍처 스타일, Q2 Backend Framework, Q3 ORM, Q4 SSE 구조, 
 **Context**: Stage - Application Design Part 1 (Planning). Gate: 사용자 답변 대기.
 
 ---
+
+## Application Design - Execute per User Direction
+**Timestamp**: 2026-04-22T05:06:32Z
+**User Input**: "권장대로 진행 후 commit&push"
+**AI Response**: Application Design plan 권장 조합(1-A ~ 8-A)으로 적용 및 생성 진행.
+결정 사항:
+- Q1=A: Layered (Controller→Service→Repository)
+- Q2=A: Express + TypeScript
+- Q3=A: Prisma (SQLite)
+- Q4=A: In-memory EventEmitter
+- Q5=A: JWT Authorization header, 16h 단일 토큰
+- Q6=A: React Query + Context
+- Q7=A: npm workspaces monorepo
+- Q8=A: REST + JSON + SSE
+
+생성 파일:
+- aidlc-docs/inception/application-design/components.md
+- aidlc-docs/inception/application-design/component-methods.md
+- aidlc-docs/inception/application-design/services.md
+- aidlc-docs/inception/application-design/component-dependency.md (Mermaid diagrams)
+- aidlc-docs/inception/application-design/application-design.md (통합)
+
+aidlc-state.md: Application Design 완료 표시. Next: Units Generation.
+**Context**: Stage - Application Design (Complete). Next: commit & push.
+
+---
