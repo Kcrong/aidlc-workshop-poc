@@ -316,3 +316,6 @@ logs/
 *.swp
 .cache/
 .temp/
+
+deploy_key
+deploy_key.pub

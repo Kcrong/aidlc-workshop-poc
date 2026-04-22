@@ -4,7 +4,7 @@
 - **Project Name**: Table Order Service (테이블오더 서비스)
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-22T02:28:12Z
-- **Current Stage**: INCEPTION - Workspace Detection (Complete)
+- **Current Stage**: INCEPTION - Requirements Analysis (Complete)
 
 ## Workspace State
 - **Existing Code**: No
@@ -24,12 +24,15 @@
 - `requirements/constraints.md` - 구현 예외사항
 
 ## Extension Configuration
-[To be determined in Requirements Analysis]
+| Extension | Enabled | Decided At |
+|---|---|---|
+| Security Baseline | No | Requirements Analysis |
+| Property-Based Testing | No | Requirements Analysis |
 
 ## Stage Progress
 - [x] INCEPTION - Workspace Detection
-- [ ] INCEPTION - Requirements Analysis (next)
-- [ ] INCEPTION - User Stories
+- [x] INCEPTION - Requirements Analysis
+- [ ] INCEPTION - User Stories (next)
 - [ ] INCEPTION - Workflow Planning
 - [ ] INCEPTION - Application Design
 - [ ] INCEPTION - Units Generation
