@@ -1,0 +1,37 @@
+# AI-DLC State Tracking
+
+## Project Information
+- **Project Name**: Table Order Service (테이블오더 서비스)
+- **Project Type**: Greenfield
+- **Start Date**: 2026-04-22T02:28:12Z
+- **Current Stage**: INCEPTION - Workspace Detection (Complete)
+
+## Workspace State
+- **Existing Code**: No
+- **Programming Languages**: N/A (신규 프로젝트)
+- **Build System**: N/A
+- **Project Structure**: Empty (requirements 문서만 존재)
+- **Reverse Engineering Needed**: No
+- **Workspace Root**: /home/ubuntu/aidlc-workshop-poc
+
+## Code Location Rules
+- **Application Code**: Workspace root (NEVER in aidlc-docs/)
+- **Documentation**: aidlc-docs/ only
+- **Structure patterns**: See code-generation.md Critical Rules
+
+## Requirements Source
+- `requirements/table-order-requirements.md` - 테이블오더 서비스 요구사항 정의서
+- `requirements/constraints.md` - 구현 예외사항
+
+## Extension Configuration
+[To be determined in Requirements Analysis]
+
+## Stage Progress
+- [x] INCEPTION - Workspace Detection
+- [ ] INCEPTION - Requirements Analysis (next)
+- [ ] INCEPTION - User Stories
+- [ ] INCEPTION - Workflow Planning
+- [ ] INCEPTION - Application Design
+- [ ] INCEPTION - Units Generation
+- [ ] CONSTRUCTION - Per-Unit Loop
+- [ ] CONSTRUCTION - Build and Test
